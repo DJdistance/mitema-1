@@ -1,0 +1,24 @@
+
+
+
+/*
+Theme Name: Tema-1
+
+Author: Carlos duarte
+Author URI: https://carlosduarte.es/
+Description: Un tema genial
+Version: 1.0
+Tags: black.simple.
+*/
+
+
+.suscribir{
+	background-position: center;
+	background: url(imagenes/depositphotos_116673448-stock-photo-black-metallic-mesh-background-texture.jpg);
+	background-size: cover;
+	height: 400px;
+}
+
+.articulo-page{
+	padding: 10px 0px 20px 60px;
+}
