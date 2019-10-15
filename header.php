@@ -27,9 +27,8 @@
    <?php wp_nav_menu(array("theme_location"=>"superior",
                             "container"=> "div",   
                             "container_class’=>‘collapse navbar-collapse",
-                            "collapse navbar-collapse",
                             "container_id"=> "navbarSupportedContent",
-                        "items_wrap"=> "<ul class=‘navbar-nav ml-auto text-center’ >%3$§</ul>",
+                        "items_wrap"=> "<ul class=‘navbar-nav ml-auto text-center’></ul>",
                              "menu_class"=> "nav-item"
                                                          
                                                          ));?>
