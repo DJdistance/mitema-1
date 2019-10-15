@@ -22,6 +22,7 @@
                 <img src="imagenes/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
                 Bootstrap
             </a>
+            <!--
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
@@ -38,9 +39,20 @@
                     </li>
                 </ul>
             </div>
-            <?php wp_nav_menu(array());?>
-        </nav>
-    </div>
+                   -->
+
+
+            <?php wp_nav_menu(array(‘theme_location’=>‘superior’,
+                                     ‘container’=> ‘div’,   
+                                     ‘container_class’=>
+                                     ‘collapse navbar-collapse’,
+                                     ‘container_id’=> ‘navbarSupportedContent’,
+                                      ‘items_wrap’=> "<ul class=‘navbar-nav ml-auto’ >%3$§</ul>",
+                                      ‘menu_class’=> ‘nav-item’
+                                      ));?>
+                                      
+                                   
+  </div>
     <!-- suscriber-->
     <div class="container-fluid suscribir d-flex flex-column justify-content-center align-items-center">
         <div class="text-center text-white">
